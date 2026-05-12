@@ -1,6 +1,6 @@
 import { useRefreshQuery } from "@/modules/AuthForm/authApi";
 import type { RootState } from "@/store/store";
-import type { UserRole } from "@/types";
+import type { USER_ROLES } from "@/types";
 import React, { type FC } from "react";
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router";
@@ -8,7 +8,7 @@ import { toast } from "sonner";
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
-  role?: UserRole;
+  role?: USER_ROLES;
 }
 
 const ProtectedRoute: FC<ProtectedRouteProps> = ({ children, role }) => {

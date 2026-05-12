@@ -1,4 +1,3 @@
-import React from "react";
 import { useGetAllLessonsQuery } from "@/modules/Events/eventsApi";
 import type { Lesson } from "@/types";
 import { EventCard } from "./EventCard";

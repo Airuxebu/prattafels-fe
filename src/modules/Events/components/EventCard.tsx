@@ -12,8 +12,7 @@ interface EventCardProps {
 export const EventCard: React.FC<EventCardProps> = ({ lesson }) => {
   const navigate = useNavigate();
   const user = useSelector((state: RootState) => state.authSlice.user);
-  const [updateLesson, { isLoading, isSuccess, error }] =
-    useUpdateLessonMutation();
+  const [updateLesson] = useUpdateLessonMutation();
   const handleAttend = async () => {
     if (!user) {
       navigate("/auth/login");

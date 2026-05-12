@@ -1,5 +1,3 @@
-import React from "react";
-
 const TeacherCard = ({ imageUrl }: { imageUrl: string }) => {
   return (
     <div className="min-w-[200px] mx-10 flex flex-col justify-center items-center text-center">

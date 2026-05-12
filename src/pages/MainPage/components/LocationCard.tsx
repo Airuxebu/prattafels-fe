@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const LocationCard = ({ imageSrc }: { imageSrc: string }) => {

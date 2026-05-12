@@ -1,4 +1,3 @@
-import React from "react";
 import CriRo from "@/assets/cristiano_ronaldo.jpeg";
 import TeacherCard from "./TeacherCard";
 

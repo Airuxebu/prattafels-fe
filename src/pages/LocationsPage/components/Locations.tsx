@@ -2,7 +2,7 @@ import { Offices } from "@/modules/Offices";
 import { useGetAllOfficesQuery } from "@/modules/Offices/officesApi";
 
 export const Locations = () => {
-  const { data, isLoading, error } = useGetAllOfficesQuery();
+  const { isLoading, error } = useGetAllOfficesQuery();
 
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error fetching offices</p>;

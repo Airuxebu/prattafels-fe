@@ -2,7 +2,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/ui/button";
 import { Input } from "@/ui/input";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React from "react";
 import { useForm } from "react-hook-form";
 import z from "zod";
 

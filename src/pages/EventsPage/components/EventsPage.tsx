@@ -1,5 +1,4 @@
 import { Events } from "@/modules/Events";
-import React from "react";
 
 export const EventsPage = () => {
   return (
